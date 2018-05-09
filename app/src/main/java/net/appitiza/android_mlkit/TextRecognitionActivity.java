@@ -28,11 +28,9 @@ public class TextRecognitionActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text_recognition);
-
         mTvSample = findViewById(R.id.tv_sample);
         mIvSample = findViewById(R.id.iv_sample);
         Bitmap image_bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.sample);
-
         textRecognition(image_bitmap);
 
 
