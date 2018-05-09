@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "440352014948",
+    "firebase_url": "https://appitiza-58585.firebaseio.com",
+    "project_id": "appitiza-58585",
+    "storage_bucket": "appitiza-58585.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440352014948:android:594ffcb925d4648d",
+        "android_client_info": {
+          "package_name": "net.appitiza.android_mlkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440352014948-md9ekjer2t1r9k6mdtkcc68g5cs4v31o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.appitiza.android_mlkit",
+            "certificate_hash": "c407604c624f6d040941e8e02ec062a5d82fd248"
+          }
+        },
+        {
+          "client_id": "440352014948-th3v7ev041cjrkspjaaqcoef7vracf6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdC7Md0yCERUoZbbPNPCCJq4ifBN60Lyg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440352014948-th3v7ev041cjrkspjaaqcoef7vracf6c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
