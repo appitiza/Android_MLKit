@@ -29,8 +29,6 @@ public class TextRecognitionActivity extends AppCompatActivity {
         mTvSample = findViewById(R.id.tv_sample);
         Bitmap image_bitmap = BitmapFactory.decodeResource(getResources(),R.drawable.sample);
         textRecognition(image_bitmap);
-
-
     }
 
     private void textRecognition(Bitmap bitmap) {
@@ -54,9 +52,6 @@ public class TextRecognitionActivity extends AppCompatActivity {
                             }
                         });
     }
-
-
-
     private void processResult(FirebaseVisionText texts) {
         List<FirebaseVisionText.Block> blocks = texts.getBlocks();
         if (blocks.size() == 0) {
@@ -72,7 +67,6 @@ public class TextRecognitionActivity extends AppCompatActivity {
                     text.append(elements.get(k).getText());
                 }
             }
-
         }
         mTvSample.setText(text.toString());
     }
